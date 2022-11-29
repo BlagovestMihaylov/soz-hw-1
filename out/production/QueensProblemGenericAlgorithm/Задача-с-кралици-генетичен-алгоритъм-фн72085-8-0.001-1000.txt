@@ -1,0 +1,358 @@
+Genetic Algorithm
+Parameters
+MAX_LENGTH/N: 8
+STARTING_POPULATION: 64
+MAX_EPOCHS: 1000
+MATING_PROBABILITY: 0.7
+MUTATION_RATE: 0.001
+MIN_SELECTED_PARENTS: 10
+MAX_SELECTED_PARENTS: 30.0
+OFFSPRING_PER_GENERATION: 20.0
+MINIMUM_SHUFFLES: 8
+MAXIMUM_SHUFFLES: 20
+
+Fitness: 25.0
+Fitness: 70.0
+Fitness: 66.66666666666667
+Fitness: 86.66666666666667
+Fitness: 93.33333333333333
+Fitness: 66.66666666666667
+Fitness: 86.66666666666667
+Fitness: 68.75
+. . Q . . . . . 
+. . . . . . Q . 
+. Q . . . . . . 
+. . . . . . . Q 
+. . . . . Q . . 
+. . . Q . . . . 
+Q . . . . . . . 
+. . . . Q . . . 
+Run: 1
+Runtime in nanoseconds: 2022-11-29T23:10:15.013997900Z
+Found at epoch: 8
+Population size: 280
+
+. . Q . . . . . 
+. . . . . . Q . 
+. Q . . . . . . 
+. . . . . . . Q 
+. . . . . Q . . 
+. . . Q . . . . 
+Q . . . . . . . 
+. . . . Q . . . 
+
+Fitness: 88.88888888888889
+Fitness: 78.57142857142857
+Fitness: 71.42857142857143
+Fitness: 92.85714285714286
+Fitness: 50.0
+Fitness: 53.333333333333336
+Fitness: 86.66666666666667
+Fitness: 66.66666666666667
+Fitness: 75.0
+. . Q . . . . . 
+. . . . Q . . . 
+. . . . . . . Q 
+. . . Q . . . . 
+Q . . . . . . . 
+. . . . . . Q . 
+. Q . . . . . . 
+. . . . . Q . . 
+Run: 2
+Runtime in nanoseconds: 2022-11-29T23:10:15.006998400Z
+Found at epoch: 9
+Population size: 336
+
+. . Q . . . . . 
+. . . . Q . . . 
+. . . . . . . Q 
+. . . Q . . . . 
+Q . . . . . . . 
+. . . . . . Q . 
+. Q . . . . . . 
+. . . . . Q . . 
+
+Fitness: 36.36363636363637
+Fitness: 27.272727272727273
+Fitness: 27.272727272727273
+Fitness: 45.45454545454545
+Fitness: 54.54545454545455
+Fitness: 36.36363636363637
+Fitness: 82.3529411764706
+Fitness: 70.58823529411765
+Fitness: 70.58823529411765
+Fitness: 76.47058823529412
+Fitness: 70.58823529411765
+Fitness: 88.23529411764706
+Fitness: 88.23529411764706
+Fitness: 64.70588235294117
+Fitness: 64.70588235294117
+Fitness: 76.47058823529412
+Fitness: 82.3529411764706
+Fitness: 82.3529411764706
+Fitness: 76.47058823529412
+Fitness: 88.23529411764706
+Fitness: 70.58823529411765
+Fitness: 82.3529411764706
+Fitness: 58.8235294117647
+Fitness: 82.3529411764706
+Fitness: 82.3529411764706
+Fitness: 76.47058823529412
+Fitness: 72.22222222222223
+. . . . Q . . . 
+. . Q . . . . . 
+. . . . . . . Q 
+. . . Q . . . . 
+. . . . . . Q . 
+Q . . . . . . . 
+. . . . . Q . . 
+. Q . . . . . . 
+Run: 3
+Runtime in nanoseconds: 2022-11-29T23:10:15.014097200Z
+Found at epoch: 27
+Population size: 796
+
+. . . . Q . . . 
+. . Q . . . . . 
+. . . . . . . Q 
+. . . Q . . . . 
+. . . . . . Q . 
+Q . . . . . . . 
+. . . . . Q . . 
+. Q . . . . . . 
+
+Fitness: 41.666666666666664
+Fitness: 68.75
+Fitness: 37.5
+Fitness: 75.0
+Fitness: 56.25
+Fitness: 37.5
+Fitness: 62.5
+Fitness: 100.0
+Fitness: 62.5
+Fitness: 50.0
+Fitness: 50.0
+Fitness: 75.0
+Fitness: 75.0
+Fitness: 75.0
+Fitness: 87.5
+Fitness: 100.0
+Fitness: 50.0
+Fitness: 75.0
+Fitness: 75.0
+Fitness: 81.25
+Fitness: 81.25
+Fitness: 62.5
+Fitness: 62.5
+Fitness: 76.47058823529412
+. . . . . . Q . 
+. Q . . . . . . 
+. . . Q . . . . 
+Q . . . . . . . 
+. . . . . . . Q 
+. . . . Q . . . 
+. . Q . . . . . 
+. . . . . Q . . 
+Run: 4
+Runtime in nanoseconds: 2022-11-29T23:10:15.010904Z
+Found at epoch: 24
+Population size: 730
+
+. . . . . . Q . 
+. Q . . . . . . 
+. . . Q . . . . 
+Q . . . . . . . 
+. . . . . . . Q 
+. . . . Q . . . 
+. . Q . . . . . 
+. . . . . Q . . 
+
+Fitness: 63.63636363636363
+Fitness: 81.81818181818181
+Fitness: 76.92307692307692
+Fitness: 84.61538461538461
+Fitness: 84.61538461538461
+Fitness: 69.23076923076923
+Fitness: 84.61538461538461
+Fitness: 69.23076923076923
+Fitness: 84.61538461538461
+Fitness: 64.28571428571429
+. . . . . Q . . 
+. . . . . . . Q 
+. Q . . . . . . 
+. . . Q . . . . 
+Q . . . . . . . 
+. . . . . . Q . 
+. . . . Q . . . 
+. . Q . . . . . 
+Run: 5
+Runtime in nanoseconds: 2022-11-29T23:10:15.003142200Z
+Found at epoch: 10
+Population size: 340
+
+. . . . . Q . . 
+. . . . . . . Q 
+. Q . . . . . . 
+. . . Q . . . . 
+Q . . . . . . . 
+. . . . . . Q . 
+. . . . Q . . . 
+. . Q . . . . . 
+
+Fitness: 84.61538461538461
+Fitness: 76.92307692307692
+Fitness: 69.23076923076923
+Fitness: 76.92307692307692
+Fitness: 69.23076923076923
+Fitness: 53.84615384615385
+Fitness: 84.61538461538461
+Fitness: 46.15384615384615
+Fitness: 92.3076923076923
+Fitness: 61.53846153846154
+Fitness: 84.61538461538461
+Fitness: 46.15384615384615
+Fitness: 92.3076923076923
+Fitness: 69.23076923076923
+Fitness: 94.11764705882354
+Fitness: 61.111111111111114
+. . . Q . . . . 
+. . . . . . Q . 
+. . Q . . . . . 
+. . . . . . . Q 
+. Q . . . . . . 
+. . . . Q . . . 
+Q . . . . . . . 
+. . . . . Q . . 
+Run: 6
+Runtime in nanoseconds: 2022-11-29T23:10:15.005858Z
+Found at epoch: 16
+Population size: 512
+
+. . . Q . . . . 
+. . . . . . Q . 
+. . Q . . . . . 
+. . . . . . . Q 
+. Q . . . . . . 
+. . . . Q . . . 
+Q . . . . . . . 
+. . . . . Q . . 
+
+Fitness: 72.72727272727273
+Fitness: 90.9090909090909
+Fitness: 72.72727272727273
+Fitness: 72.72727272727273
+Fitness: 58.333333333333336
+Fitness: 66.66666666666667
+Fitness: 50.0
+Fitness: 100.0
+Fitness: 61.53846153846154
+Fitness: 61.53846153846154
+Fitness: 69.23076923076923
+Fitness: 46.15384615384615
+Fitness: 84.61538461538461
+Fitness: 35.714285714285715
+. . . Q . . . . 
+. . . . . . . Q 
+Q . . . . . . . 
+. . . . Q . . . 
+. . . . . . Q . 
+. Q . . . . . . 
+. . . . . Q . . 
+. . Q . . . . . 
+Run: 7
+Runtime in nanoseconds: 2022-11-29T23:10:15.005998900Z
+Found at epoch: 14
+Population size: 454
+
+. . . Q . . . . 
+. . . . . . . Q 
+Q . . . . . . . 
+. . . . Q . . . 
+. . . . . . Q . 
+. Q . . . . . . 
+. . . . . Q . . 
+. . Q . . . . . 
+
+Fitness: 25.0
+Fitness: 53.333333333333336
+Fitness: 60.0
+Fitness: 81.25
+. . Q . . . . . 
+. . . . . Q . . 
+. Q . . . . . . 
+. . . . Q . . . 
+. . . . . . . Q 
+Q . . . . . . . 
+. . . . . . Q . 
+. . . Q . . . . 
+Run: 8
+Runtime in nanoseconds: 2022-11-29T23:10:15.001073700Z
+Found at epoch: 4
+Population size: 168
+
+. . Q . . . . . 
+. . . . . Q . . 
+. Q . . . . . . 
+. . . . Q . . . 
+. . . . . . . Q 
+Q . . . . . . . 
+. . . . . . Q . 
+. . . Q . . . . 
+
+Fitness: 58.8235294117647
+Fitness: 88.23529411764706
+Fitness: 76.47058823529412
+Fitness: 76.47058823529412
+Fitness: 64.70588235294117
+Fitness: 76.47058823529412
+Fitness: 47.05882352941177
+Fitness: 80.95238095238095
+Fitness: 86.36363636363636
+Q . . . . . . . 
+. . . . . Q . . 
+. . . . . . . Q 
+. . Q . . . . . 
+. . . . . . Q . 
+. . . Q . . . . 
+. Q . . . . . . 
+. . . . Q . . . 
+Run: 9
+Runtime in nanoseconds: 2022-11-29T23:10:15.003930200Z
+Found at epoch: 9
+Population size: 326
+
+Q . . . . . . . 
+. . . . . Q . . 
+. . . . . . . Q 
+. . Q . . . . . 
+. . . . . . Q . 
+. . . Q . . . . 
+. Q . . . . . . 
+. . . . Q . . . 
+
+Fitness: 76.92307692307692
+. . . . Q . . . 
+. . . . . . Q . 
+. Q . . . . . . 
+. . . Q . . . . 
+. . . . . . . Q 
+Q . . . . . . . 
+. . Q . . . . . 
+. . . . . Q . . 
+Run: 10
+Runtime in nanoseconds: 2022-11-29T23:10:15Z
+Found at epoch: 1
+Population size: 96
+
+. . . . Q . . . 
+. . . . . . Q . 
+. Q . . . . . . 
+. . . Q . . . . 
+. . . . . . . Q 
+Q . . . . . . . 
+. . Q . . . . . 
+. . . . . Q . . 
+
+start: 2022-11-29T23:10:15.296391300Z
+end: 2022-11-29T23:10:15.296391300Z
+elapsed nanoseconds: 87067600
