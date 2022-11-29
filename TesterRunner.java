@@ -2,7 +2,7 @@
 
 import java.time.Instant;
 
-public class TesterGA
+public class TesterRunner
 {
     public static Writer logWriter;
     GeneticAlgorithm ga;
@@ -10,10 +10,10 @@ public class TesterGA
     int MAX_LENGTH;
     long[] runtimes;
 
-    /* Instantiates the TesterGA class
+    /* Instantiates the TesterRunner class
      *
      */
-    public TesterGA()
+    public TesterRunner()
     {
         logWriter = new Writer();
         MAX_RUN = 10;
@@ -133,7 +133,7 @@ public class TesterGA
 
     public static void main(String[] args)
     {
-        TesterGA tester = new TesterGA();
+        TesterRunner tester = new TesterRunner();
 
         tester.test(8, 0.001, 1000);
 

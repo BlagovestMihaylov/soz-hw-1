@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" name="QueensProblemGenericAlgorithm:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/QueensProblemGenericAlgorithm_jar</output-path>
-    <root id="archive" name="QueensProblemGenericAlgorithm.jar">
-      <element id="module-output" name="QueensProblemGenericAlgorithm" />
-    </root>
-  </artifact>
-</component>

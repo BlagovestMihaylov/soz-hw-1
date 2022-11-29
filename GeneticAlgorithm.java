@@ -398,7 +398,7 @@ public class GeneticAlgorithm
             thisChromo.setFitness(fitness);
         }
         System.out.println("fitness: " + thisChromo.getFitness());
-        TesterGA.logWriter.add("Fitness: " + thisChromo.getFitness());
+        TesterRunner.logWriter.add("Fitness: " + thisChromo.getFitness());
 
     }
 
@@ -419,7 +419,7 @@ public class GeneticAlgorithm
         }
 
         printSolution(thisChromo);
-        TesterGA.logWriter.add(thisChromo);
+        TesterRunner.logWriter.add(thisChromo);
     }
 
     /* Prints the nxn board with the queens
