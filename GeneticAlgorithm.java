@@ -110,6 +110,7 @@ public class GeneticAlgorithm
                 thisChromo = population.get(i);
                 if (thisChromo.getConflicts() == 0)
                 {
+                    printSolution(thisChromo);
                     solutions.add(thisChromo);
                 }
             }
@@ -170,7 +171,7 @@ public class GeneticAlgorithm
                 if (childCount % (int) Math.round(1.0 / MUTATION_RATE) == 0)
                 {
                     nextMutation = childCount + getRandomNumber(0, (int) Math.round(1.0 / MUTATION_RATE));
-                    //System.out.println("HYE   "+nextMutation);
+                    System.out.println("HYE   "+nextMutation);
                 }
             }
         } // i
@@ -398,7 +399,8 @@ public class GeneticAlgorithm
             thisChromo.setFitness(fitness);
         }
         System.out.println("fitness: " + thisChromo.getFitness());
-        TesterRunner.logWriter.add("Fitness: " + thisChromo.getFitness());
+        TestRunner.logWriter.add("");
+        TestRunner.logWriter.add("Fitness: " + thisChromo.getFitness());
 
     }
 
@@ -419,7 +421,7 @@ public class GeneticAlgorithm
         }
 
         printSolution(thisChromo);
-        TesterRunner.logWriter.add(thisChromo);
+        TestRunner.logWriter.add(thisChromo);
     }
 
     /* Prints the nxn board with the queens

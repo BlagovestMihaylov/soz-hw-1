@@ -2,7 +2,7 @@
 
 import java.time.Instant;
 
-public class TesterRunner
+public class TestRunner
 {
     public static Writer logWriter;
     GeneticAlgorithm ga;
@@ -10,13 +10,13 @@ public class TesterRunner
     int MAX_LENGTH;
     long[] runtimes;
 
-    /* Instantiates the TesterRunner class
+    /* Instantiates the TestRunner class
      *
      */
-    public TesterRunner()
+    public TestRunner()
     {
         logWriter = new Writer();
-        MAX_RUN = 10;
+        MAX_RUN = 1;
         runtimes = new long[MAX_RUN];
     }
 
@@ -51,7 +51,7 @@ public class TesterRunner
                 totalTime = endTime.minusNanos(startTime.getNano());
                 System.out.println("Done");
                 System.out.println("run " + (i + 1));
-                System.out.println("time in nanoseconds: " + totalTime);
+                System.out.println("time in nanoseconds: " + totalTime.getNano());
                 System.out.println("Success!");
 
                 runtimes[i] = totalTime.getNano();
@@ -59,16 +59,18 @@ public class TesterRunner
                 success++;
 
                 //write to log
-                logWriter.add((String) ("Run: " + i));
-                logWriter.add((String) ("Runtime in nanoseconds: " + totalTime));
-                logWriter.add((String) ("Found at epoch: " + ga.getEpoch()));
-                logWriter.add((String) ("Population size: " + ga.getPopSize()));
+                logWriter.add(("Run: " + i));
+                logWriter.add(("Runtime in nanoseconds: " + totalTime.getNano()));
+                logWriter.add(("Found at epoch: " + ga.getEpoch()));
+                logWriter.add(("Population size: " + ga.getPopSize()));
                 logWriter.add("");
 
 
                 for (Chromosome c : ga.getSolutions())
-                {                                //write solutions to log file
+                {
+                    logWriter.add("-----SOLUTION-----TEST RUN " + i);//write solutions to log file
                     logWriter.add(c);
+                    logWriter.add("-----SOLUTION-----TEST RUN " + i);
                     logWriter.add("");
                 }
             } else
@@ -133,7 +135,7 @@ public class TesterRunner
 
     public static void main(String[] args)
     {
-        TesterRunner tester = new TesterRunner();
+        TestRunner tester = new TestRunner();
 
         tester.test(8, 0.001, 1000);
 
